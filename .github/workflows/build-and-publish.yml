@@ -31,7 +31,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=custom,value=${{ steps.build_version.outputs.version }}
+            type=raw,value=${{ steps.build_version.outputs.version }}
             type=ref,event=branch
             type=ref,event=pr
             type=semver,pattern={{major}}.{{minor}}
