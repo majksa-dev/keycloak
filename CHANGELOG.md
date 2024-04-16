@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/majksa-dev/keycloak/compare/v1.0.0...v1.0.1) (2024-04-16)
+
+
+### Bug Fixes
+
+* **deps:** bump keycloak/keycloak from 23.0 to 24.0 ([3031bf7](https://github.com/majksa-dev/keycloak/commit/3031bf71ed50d7bed32ef086d52062fc337b1ac2))
+
 ## 1.0.0 (2024-02-16)
 
 
